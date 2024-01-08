@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base href="http://www.example.com/">
+<link href="stylesheet.css" rel="stylesheet">
+</head>
+
+<!--Champion Icon-->
+<div class="box">
+    <div class="leftImg">{{ championIcon|safe }}</div>
+    <div class="rightSide">
+        <!--Main Runes-->
+        {{ mainBranch|safe }}
+        <br>
+        <!--Secondary Runes-->
+        {{ asideBranch|safe }}
+        <br>
+        <!--Side Runes-->
+        {{ additionalBranch|safe }}
+    </div>
+</div>
+
+<!--Starting Item-->
+<div class="box">
+    {{ startingItems1|safe }}
+    <p class="text">OR</p>
+    {{ startingItems2|safe }}
+</div>
+
+<!--Boots-->
+<div class="box">
+    {{ boots1|safe }}
+    <p class="text">OR</p>
+    {{ boots2|safe }}
+</div>
+
+<!--Builds-->
+<div class="box">
+    <p class="text">Builds:</p>
+
+    {{ build1|safe }}
+
+    <p class="text">OR</p>
+
+    {{ build2|safe }}
+
+    <p class="text">OR</p>
+
+    {{ build3|safe }}
+
+    <p class="text">OR</p>
+
+    {{ build4|safe }}
+
+    <p class="text">OR</p>
+
+    {{ build5|safe }}    
+</div>
+</html>

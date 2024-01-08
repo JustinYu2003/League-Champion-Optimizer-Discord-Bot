@@ -1,0 +1,8 @@
+.box {
+    display: -webkit-box;
+    background: #000;
+    /* border: 1px solid black; */
+  }
+  .text {
+      color: white
+  }

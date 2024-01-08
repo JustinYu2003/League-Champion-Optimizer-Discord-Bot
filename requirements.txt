@@ -1,0 +1,7 @@
+beautifulsoup
+django
+discord
+https://pypi.org/project/imgkit/
+
+In the bot section of the discord developers section, enable:
+Privileged Gateway Intents: Message Content Intent
